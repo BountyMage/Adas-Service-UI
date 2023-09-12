@@ -18,5 +18,12 @@ public:
 
 private:
     Ui::MainWindow *ui;
+    void comboBoxSettingFrontObject();
+    void comboBoxSettingSLIFIHBCStatus();
+    void comboBoxSettingTLAInfo();
+    void comboBoxSettingAEB();
+    void comboBoxSettingDisplay();
+    void comboBoxSettingALAD();
+
 };
 #endif // MAINWINDOW_H

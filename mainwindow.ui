@@ -6,15 +6,4288 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>1495</width>
+    <height>922</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
-  <widget class="QWidget" name="centralwidget"/>
-  <widget class="QMenuBar" name="menubar"/>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_13">
+    <item row="0" column="0">
+     <layout class="QGridLayout" name="gridLayout_7">
+      <item row="0" column="0">
+       <widget class="QSplitter" name="splitter_134">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <widget class="QLabel" name="label_20">
+         <property name="font">
+          <font>
+           <family>Microsoft YaHei</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color:rgb(3, 124, 213);
+background-color: rgb(226, 226, 227);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::Box</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Plain</enum>
+         </property>
+         <property name="lineWidth">
+          <number>0</number>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Front Object&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QSplitter" name="splitter_13">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+        </widget>
+        <widget class="QSplitter" name="splitter_17">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_21">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_126">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 25 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::NoFrame</enum>
+          </property>
+          <property name="text">
+           <string>               FObject 1</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_127">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 25 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::NoFrame</enum>
+          </property>
+          <property name="text">
+           <string>             FObject 2</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_135">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_128">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Dx:           </string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit_16">
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit_17">
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_136">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_129">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;
+</string>
+          </property>
+          <property name="text">
+           <string>Dy:           </string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit_18">
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit_19">
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_137">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+        </widget>
+        <widget class="QSplitter" name="splitter_138">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_130">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Type:</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox_FOonetype_">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox_FOtwotype_">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_139">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_131">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Color:</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox_FOoneColor_">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox_FOtwoColor_">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_140">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_132">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Warn:</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox_FOoneWarn_">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox_FOtwoWarn_">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QSplitter" name="splitter_41">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <widget class="QLabel" name="label_34">
+         <property name="font">
+          <font>
+           <family>Microsoft YaHei</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color:rgb(3, 124, 213);
+background-color: rgb(226, 226, 227);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::Box</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Plain</enum>
+         </property>
+         <property name="lineWidth">
+          <number>0</number>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;FrontSide Object&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QSplitter" name="splitter_42">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_50">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_62">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 25 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::NoFrame</enum>
+          </property>
+          <property name="text">
+           <string>    Object L</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+         <widget class="QSplitter" name="splitter_46">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+         </widget>
+         <widget class="QSplitter" name="splitter_47">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_65">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 25 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::NoFrame</enum>
+          </property>
+          <property name="text">
+           <string>     Object R</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_43">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_77">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Dx:               </string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit_44">
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit_45">
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_48">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_123">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;
+</string>
+          </property>
+          <property name="text">
+           <string>Dy:               </string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit_46">
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit_47">
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_49">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_124">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Type:            </string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox_FLOtype_">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox_FROtype_">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="sizeAdjustPolicy">
+           <enum>QComboBox::AdjustToContents</enum>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>24</width>
+            <height>24</height>
+           </size>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_133">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_125">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Color:           </string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox_FLOColor_">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox_FROColor_">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="0" column="1" colspan="3">
+     <layout class="QGridLayout" name="gridLayout_8">
+      <item row="0" column="4">
+       <widget class="QSplitter" name="splitter_141">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <widget class="QLabel" name="label_133">
+         <property name="font">
+          <font>
+           <family>Microsoft YaHei</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color:rgb(3, 124, 213);
+background-color: rgb(226, 226, 227);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::Box</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Plain</enum>
+         </property>
+         <property name="lineWidth">
+          <number>0</number>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;RightLine Info 2&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QSplitter" name="splitter_142">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_134">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Start_X:</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit_48">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_143">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_135">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Start_Y:</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit_49">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_144">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_136">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>End_X:  </string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit_50">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_145">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_137">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>End_Y:  </string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit_51">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QSplitter" name="splitter_146">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <widget class="QLabel" name="label_138">
+         <property name="font">
+          <font>
+           <family>Microsoft YaHei</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color:rgb(3, 124, 213);
+background-color: rgb(226, 226, 227);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::Box</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Plain</enum>
+         </property>
+         <property name="lineWidth">
+          <number>0</number>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;LeftLine Info 2&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QSplitter" name="splitter_147">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_139">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Start_X:</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit_52">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_148">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_140">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Start_Y:</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit_53">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_149">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_141">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>End_X:</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit_54">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_150">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_142">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>End_Y:</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit_55">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QSplitter" name="splitter_151">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <widget class="QLabel" name="label_143">
+         <property name="font">
+          <font>
+           <family>Microsoft YaHei</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color:rgb(3, 124, 213);
+background-color: rgb(226, 226, 227);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::Box</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Plain</enum>
+         </property>
+         <property name="lineWidth">
+          <number>0</number>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;RightLine Info 1 &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QSplitter" name="splitter_152">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_144">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Valid:  </string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_104">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>false</string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_105">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>true</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_153">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_145">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Width:      </string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit_56">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_154">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_146">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Factor_C0:</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit_57">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_155">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_147">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Factor_C1:</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit_58">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_156">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_148">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Factor_C2:</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit_59">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_157">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_149">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Factor_C3:</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit_60">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QSplitter" name="splitter_158">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <widget class="QLabel" name="label_150">
+         <property name="font">
+          <font>
+           <family>Microsoft YaHei</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color:rgb(3, 124, 213);
+background-color: rgb(226, 226, 227);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::Box</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Plain</enum>
+         </property>
+         <property name="lineWidth">
+          <number>0</number>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;LeftLine Info 1 &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QSplitter" name="splitter_159">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_151">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Valid:  </string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_119">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>false</string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_120">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>true</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_160">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_152">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Width:      </string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit_61">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_161">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_153">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Factor_C0:</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit_62">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_162">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_154">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Factor_C1:</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit_63">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_163">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_155">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Factor_C2:</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit_64">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_164">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_156">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Factor_C3:</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit_65">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="1" column="0" colspan="4">
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QSplitter" name="splitter_165">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <widget class="QLabel" name="label_157">
+         <property name="font">
+          <font>
+           <family>Microsoft YaHei</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color:rgb(3, 124, 213);
+background-color: rgb(226, 226, 227);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::Box</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Plain</enum>
+         </property>
+         <property name="lineWidth">
+          <number>0</number>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;SLIF IHBC Status&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QSplitter" name="splitter_166">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_158">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>IHBC_Status:</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="IHBC_Status_">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_167">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_159">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>IHBC_LightDistribReq:</string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_79">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>not recommended</string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_80">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>recommended</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_168">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_160">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>IHBC_Switch:                       </string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_121">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Reserved</string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_122">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>OFF</string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_123">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>ON</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_169">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_161">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>SLIF_Switch:                         </string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_124">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Reserved</string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_125">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>OFF</string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_126">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>ON</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_170">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QSplitter" name="splitter_171">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <widget class="QLabel" name="label_162">
+           <property name="styleSheet">
+            <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+           </property>
+           <property name="text">
+            <string>Speedlimit:                          </string>
+           </property>
+          </widget>
+          <widget class="QRadioButton" name="radioButton_127">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+           </property>
+           <property name="text">
+            <string>No display   </string>
+           </property>
+          </widget>
+          <widget class="QRadioButton" name="radioButton_128">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+           </property>
+           <property name="text">
+            <string>Speed value:</string>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit_66">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_172">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_163">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>SpeedLimitCancelled:          </string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_129">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Speed Limit</string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_130">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Speed Limit Cancelled      </string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_173">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_164">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>SLIF_Status:</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="SLIF_Status_">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_174">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_165">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>SLIF_Warning:  </string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_131">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>No warning</string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_132">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Warning                </string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_175">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_166">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Status_AliveCounter：</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit_67">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_176">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_167">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Status_CheckSum:</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit_68">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+      </item>
+      <item>
+       <widget class="QSplitter" name="splitter_177">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <widget class="QLabel" name="label_168">
+         <property name="font">
+          <font>
+           <family>Microsoft YaHei</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color:rgb(3, 124, 213);
+background-color: rgb(226, 226, 227);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::Box</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Plain</enum>
+         </property>
+         <property name="lineWidth">
+          <number>0</number>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;RSRSL InformStatus&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QSplitter" name="splitter_178">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_169">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>SystemStatus:</string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_133">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>OFF</string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_134">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>ON</string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_135">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Temp Error</string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_136">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Sys Error</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_179">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_170">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>LCA_Status:                                  </string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_137">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>OFF     </string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_138">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Passive      </string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_139">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Active                                 </string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_180">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_171">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>RCTA_Status:                                </string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_140">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>OFF</string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_141">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Passive </string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_142">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Active                            </string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_181">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_172">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>RCW_Status:                           </string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_143">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>OFF</string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_144">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Passive</string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_145">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Active                            </string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_182">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_173">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>LCA_WarningLeft:                  </string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_146">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>No Warning  </string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_147">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Warning level 1</string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_148">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Warning level 2</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_183">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_174">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>LCA_WarningRight:               </string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_149">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>No Warning  </string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_150">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Warning level 1</string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_151">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Warning level 2</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_184">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_175">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>RCTA_WarningLeft:  </string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_152">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Warning OFF</string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_153">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Warning ON</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_185">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_176">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>RCTA_WarningRight:  </string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_154">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Warning OFF</string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_155">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Warning ON</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_186">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_177">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>RCW_Warning:    </string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_156">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>No Warning  </string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_157">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Warning level 1</string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_158">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Warning level 2</string>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+      </item>
+      <item>
+       <widget class="QSplitter" name="splitter_187">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <widget class="QLabel" name="label_178">
+         <property name="font">
+          <font>
+           <family>Microsoft YaHei</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color:rgb(3, 124, 213);
+background-color: rgb(226, 226, 227);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::Box</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Plain</enum>
+         </property>
+         <property name="lineWidth">
+          <number>0</number>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;TLA Info&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QSplitter" name="splitter_188">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_179">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>left_type_S:  </string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_56">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Round</string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_64">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Arrow</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_189">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_180">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>stright_type_S:  </string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_159">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Round</string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_160">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Arrow</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_190">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_181">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>right_type:  </string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_161">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Round</string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_162">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Arrow</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_191">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_182">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Sts:</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox_TLA_Info_Sts_">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_192">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_183">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>left_S:</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox_TLA_Info_Left_S_">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_193">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_184">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>stright_S:</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox_TLA_Info_stright_S_">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_194">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_185">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>right_S:</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox_TLA_Info_right_S_">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="2" column="0" colspan="2">
+     <layout class="QHBoxLayout" name="horizontalLayout_4">
+      <item>
+       <widget class="QSplitter" name="splitter_195">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <widget class="QLabel" name="label_186">
+         <property name="font">
+          <font>
+           <family>Microsoft YaHei</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color:rgb(3, 124, 213);
+background-color: rgb(226, 226, 227);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::Box</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Plain</enum>
+         </property>
+         <property name="lineWidth">
+          <number>0</number>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt; Road Status&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QSplitter" name="splitter_196">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_187">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>LineLeft_D：</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit_69">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_197">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_188">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>LineLeft_Type:    </string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_65">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>No display  </string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_66">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Solid lane</string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_163">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>dash lane</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_198">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_189">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>LineLeft_Warning:  </string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_164">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>No warning</string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_165">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Warning                </string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_199">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QSplitter" name="splitter_200">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <widget class="QSplitter" name="splitter_201">
+           <property name="styleSheet">
+            <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <widget class="QLabel" name="label_190">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+            </property>
+            <property name="text">
+             <string>LineLeft_Color:</string>
+            </property>
+           </widget>
+           <widget class="QRadioButton" name="radioButton_166">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+            </property>
+            <property name="text">
+             <string>Grey  </string>
+            </property>
+           </widget>
+           <widget class="QRadioButton" name="radioButton_167">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+            </property>
+            <property name="text">
+             <string>White</string>
+            </property>
+           </widget>
+           <widget class="QRadioButton" name="radioButton_168">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+            </property>
+            <property name="text">
+             <string>Blue</string>
+            </property>
+           </widget>
+          </widget>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_12">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Red</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_202">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_191">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>LineRight_D：</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit_70">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_203">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_192">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>LineLeft_Type:</string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_169">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>No display  </string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_170">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Solid lane</string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_171">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>dash lane</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_204">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_193">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>LineRight_Warning:  </string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_13">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>No warning</string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_172">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Warning                </string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_205">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_194">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>LineRight_Color:</string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_173">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Grey  </string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_174">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>White</string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_175">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Blue</string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_14">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Red</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_206">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QSplitter" name="splitter_207">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <widget class="QLabel" name="label_195">
+           <property name="styleSheet">
+            <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+           </property>
+           <property name="text">
+            <string>Lane_Radius:  </string>
+           </property>
+          </widget>
+          <widget class="QRadioButton" name="radioButton_176">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+           </property>
+           <property name="text">
+            <string>straight line</string>
+           </property>
+          </widget>
+          <widget class="QRadioButton" name="radioButton_177">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+           </property>
+           <property name="text">
+            <string>No display:</string>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit_71">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_208">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_196">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>LaneCenter_Color：</string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_178">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Grey</string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_179">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Green</string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_180">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Blue</string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_181">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Red</string>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+      </item>
+      <item>
+       <layout class="QGridLayout" name="gridLayout_9">
+        <item row="0" column="1">
+         <layout class="QGridLayout" name="gridLayout_10">
+          <item row="0" column="0">
+           <widget class="QSplitter" name="splitter_209">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <widget class="QLabel" name="label_197">
+             <property name="font">
+              <font>
+               <family>Microsoft YaHei</family>
+               <pointsize>12</pointsize>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color:rgb(3, 124, 213);
+background-color: rgb(226, 226, 227);</string>
+             </property>
+             <property name="frameShape">
+              <enum>QFrame::Box</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Plain</enum>
+             </property>
+             <property name="lineWidth">
+              <number>0</number>
+             </property>
+             <property name="text">
+              <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;AEB&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+            <widget class="QSplitter" name="splitter_210">
+             <property name="styleSheet">
+              <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+             </property>
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <widget class="QLabel" name="label_198">
+              <property name="styleSheet">
+               <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+              </property>
+              <property name="text">
+               <string>DecCtrlACT:  </string>
+              </property>
+             </widget>
+             <widget class="QRadioButton" name="radioButton_15">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+              </property>
+              <property name="text">
+               <string>No Demand</string>
+              </property>
+             </widget>
+             <widget class="QRadioButton" name="radioButton_16">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+              </property>
+              <property name="text">
+               <string>Demand                 </string>
+              </property>
+             </widget>
+            </widget>
+            <widget class="QSplitter" name="splitter_211">
+             <property name="styleSheet">
+              <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+             </property>
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <widget class="QLabel" name="label_199">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+              </property>
+              <property name="text">
+               <string>WarningType:</string>
+              </property>
+             </widget>
+             <widget class="QRadioButton" name="radioButton_17">
+              <property name="styleSheet">
+               <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+              </property>
+              <property name="text">
+               <string>Reserved  </string>
+              </property>
+             </widget>
+             <widget class="QRadioButton" name="radioButton_18">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+              </property>
+              <property name="text">
+               <string>Warn OFF</string>
+              </property>
+             </widget>
+             <widget class="QRadioButton" name="radioButton_19">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+              </property>
+              <property name="text">
+               <string>Warn ON</string>
+              </property>
+             </widget>
+            </widget>
+            <widget class="QSplitter" name="splitter_212">
+             <property name="styleSheet">
+              <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+             </property>
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <widget class="QLabel" name="label_200">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+              </property>
+              <property name="text">
+               <string>AudioReq:   </string>
+              </property>
+             </widget>
+             <widget class="QRadioButton" name="radioButton_182">
+              <property name="styleSheet">
+               <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+              </property>
+              <property name="text">
+               <string>None</string>
+              </property>
+             </widget>
+             <widget class="QRadioButton" name="radioButton_183">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+              </property>
+              <property name="text">
+               <string>Level1  </string>
+              </property>
+             </widget>
+             <widget class="QRadioButton" name="radioButton_184">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+              </property>
+              <property name="text">
+               <string>Level2 </string>
+              </property>
+             </widget>
+            </widget>
+            <widget class="QSplitter" name="splitter_213">
+             <property name="styleSheet">
+              <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+             </property>
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <widget class="QLabel" name="label_201">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+              </property>
+              <property name="text">
+               <string>Switch:     </string>
+              </property>
+             </widget>
+             <widget class="QRadioButton" name="radioButton_185">
+              <property name="styleSheet">
+               <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+              </property>
+              <property name="text">
+               <string>Reserved  </string>
+              </property>
+             </widget>
+             <widget class="QRadioButton" name="radioButton_186">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+              </property>
+              <property name="text">
+               <string>AEB OFF </string>
+              </property>
+             </widget>
+             <widget class="QRadioButton" name="radioButton_187">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+              </property>
+              <property name="text">
+               <string>AEB ON </string>
+              </property>
+             </widget>
+            </widget>
+            <widget class="QSplitter" name="splitter_214">
+             <property name="styleSheet">
+              <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+             </property>
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <widget class="QSplitter" name="splitter_215">
+              <property name="styleSheet">
+               <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+              </property>
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <widget class="QLabel" name="label_202">
+               <property name="styleSheet">
+                <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+               </property>
+               <property name="text">
+                <string>Status:</string>
+               </property>
+              </widget>
+              <widget class="QComboBox" name="comboBox_AEB_Status_">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+               </property>
+              </widget>
+             </widget>
+             <widget class="QSplitter" name="splitter_216">
+              <property name="styleSheet">
+               <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+              </property>
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <widget class="QLabel" name="label_203">
+               <property name="layoutDirection">
+                <enum>Qt::LeftToRight</enum>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+               </property>
+               <property name="text">
+                <string>Warning:</string>
+               </property>
+              </widget>
+              <widget class="QComboBox" name="comboBox_AEB_Warning_">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+               </property>
+              </widget>
+             </widget>
+             <widget class="QSplitter" name="splitter_217">
+              <property name="styleSheet">
+               <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+              </property>
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <widget class="QLabel" name="label_204">
+               <property name="styleSheet">
+                <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+               </property>
+               <property name="text">
+                <string>FCWSenlevel:</string>
+               </property>
+              </widget>
+              <widget class="QComboBox" name="comboBox_AEB_FCWSenlevel_">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+               </property>
+              </widget>
+             </widget>
+            </widget>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QSplitter" name="splitter_218">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <widget class="QLabel" name="label_205">
+             <property name="font">
+              <font>
+               <family>Microsoft YaHei</family>
+               <pointsize>12</pointsize>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color:rgb(3, 124, 213);
+background-color: rgb(226, 226, 227);</string>
+             </property>
+             <property name="frameShape">
+              <enum>QFrame::Box</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Plain</enum>
+             </property>
+             <property name="lineWidth">
+              <number>0</number>
+             </property>
+             <property name="text">
+              <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;AEB Object&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+            <widget class="QSplitter" name="splitter_219">
+             <property name="styleSheet">
+              <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+             </property>
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <widget class="QLabel" name="label_206">
+              <property name="styleSheet">
+               <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+              </property>
+              <property name="text">
+               <string>Dx:</string>
+              </property>
+             </widget>
+             <widget class="QLineEdit" name="lineEdit_72">
+              <property name="styleSheet">
+               <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </widget>
+            <widget class="QSplitter" name="splitter_220">
+             <property name="styleSheet">
+              <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+             </property>
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <widget class="QLabel" name="label_207">
+              <property name="styleSheet">
+               <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+              </property>
+              <property name="text">
+               <string>Dy:</string>
+              </property>
+             </widget>
+             <widget class="QLineEdit" name="lineEdit_73">
+              <property name="styleSheet">
+               <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </widget>
+            <widget class="QSplitter" name="splitter_221">
+             <property name="styleSheet">
+              <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+             </property>
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <widget class="QLabel" name="label_208">
+              <property name="styleSheet">
+               <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+              </property>
+              <property name="text">
+               <string>Width:</string>
+              </property>
+             </widget>
+             <widget class="QLineEdit" name="lineEdit_74">
+              <property name="styleSheet">
+               <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </widget>
+            <widget class="QSplitter" name="splitter_222">
+             <property name="styleSheet">
+              <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+             </property>
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <widget class="QLabel" name="label_209">
+              <property name="styleSheet">
+               <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+              </property>
+              <property name="text">
+               <string>Height:</string>
+              </property>
+             </widget>
+             <widget class="QLineEdit" name="lineEdit_75">
+              <property name="styleSheet">
+               <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </widget>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item row="2" column="2">
+     <layout class="QGridLayout" name="gridLayout_11">
+      <item row="0" column="0">
+       <widget class="QSplitter" name="splitter_223">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <widget class="QLabel" name="label_210">
+         <property name="font">
+          <font>
+           <family>Microsoft YaHei</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color:rgb(3, 124, 213);
+background-color: rgb(226, 226, 227);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::Box</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Plain</enum>
+         </property>
+         <property name="lineWidth">
+          <number>0</number>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Display&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QSplitter" name="splitter_224">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_211">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>ALOD_SpeedSetDisp;                          </string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit_76">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_225">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_212">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>ALOD_TimeGap:</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox_Display_ALOD_TimeGap_">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_226">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_213">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>ALOD_TimeGapDisp</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox_Display_ALOD_TimeGapDisp_">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_227">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_214">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>ALOD_Status:</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox_Display_ALOD_Status_">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_228">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_215">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>ALOD_ControlType:</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox_Display_ALOD_ControlType_">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_229">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_216">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>ALOD_Warning:</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox_Display_ALOD_Warning_">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_230">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_217">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>FRS_Status:</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox_Display_FRS_Status_">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_231">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_218">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>ALOD_Info:</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox_Display_ALOD_Info_">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_232">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_219">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Display_AliveCounter:                        </string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit_77">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_233">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_220">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Display_CheckSum:         </string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit_78">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="2" column="3">
+     <layout class="QGridLayout" name="gridLayout_12">
+      <item row="1" column="0">
+       <widget class="QSplitter" name="splitter_234">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <widget class="QLabel" name="label_221">
+         <property name="font">
+          <font>
+           <family>Microsoft YaHei</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color:rgb(3, 124, 213);
+background-color: rgb(226, 226, 227);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::Box</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Plain</enum>
+         </property>
+         <property name="lineWidth">
+          <number>0</number>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;ALAD SysStatus&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QSplitter" name="splitter_235">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_222">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>NOA_Status:</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox_ALAD_SysStatus_NOA_Status_">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_236">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_223">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>LateralControlStatus:</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox_ALAD_SysStatus_LateralControlStatus_">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QSplitter" name="splitter_237">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <widget class="QLabel" name="label_224">
+         <property name="font">
+          <font>
+           <family>Microsoft YaHei</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color:rgb(3, 124, 213);
+background-color: rgb(226, 226, 227);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::Box</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Plain</enum>
+         </property>
+         <property name="lineWidth">
+          <number>0</number>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;ALAD Status&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QSplitter" name="splitter_238">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <widget class="QSplitter" name="splitter_239">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <widget class="QLabel" name="label_225">
+           <property name="styleSheet">
+            <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+           </property>
+           <property name="text">
+            <string>SwitchStatus:  </string>
+           </property>
+          </widget>
+          <widget class="QRadioButton" name="radioButton_20">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+           </property>
+           <property name="text">
+            <string>OFF</string>
+           </property>
+          </widget>
+          <widget class="QRadioButton" name="radioButton_21">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+           </property>
+           <property name="text">
+            <string>ON                 </string>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QSplitter" name="splitter_240">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <widget class="QSplitter" name="splitter_241">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+          </widget>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_242">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_226">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Type:</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox_ALAD_Status_Type_">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_243">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_227">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>WarningType:</string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_22">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Reserved  </string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_188">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Audio</string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_189">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Tactile</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_244">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_228">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Status:</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox_ALAD_Status_Status_">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_245">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_229">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>FCS_Status:</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox_ALAD_Status_FCS_Status_">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_246">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_230">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Warning:</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox_ALAD_Status_Warning_">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1495</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources/>
