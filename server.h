@@ -11,6 +11,12 @@
 #include <v1/commonapi/ADAS_SystStatus_ServiceStubDefault.hpp>
 #include <v1/commonapi/ADAS_SystStatus_ServiceProxyBase.hpp>
 
+#define ConnDataType QVector<int>
+
+#define NOA_Status 0
+#define LateralControlStatus 1
+
+
 class Server : public QObject
 {
     Q_OBJECT
@@ -19,10 +25,18 @@ public:
      ~Server();
 
 signals:
+    void testsignal(QString s);
 
 public slots:
     void run();
+    void setALAD_SysStatus(ConnDataType data);
+    void testslot(QString s){qDebug() << "server Received data: " << s;}
+
+private:
+    std::shared_ptr<CommonAPI::Runtime> runtime = nullptr;
+    std::shared_ptr<v1_0::commonapi::ADAS_SystStatus_ServiceStubDefault> myService = nullptr;
 
 };
 
+void intToADASEnum(ConnDataType in, v1_0::commonapi::ADAS_SystStatus_Service::ADAS_SystStatus_Struct& out);
 #endif // SERVER_H

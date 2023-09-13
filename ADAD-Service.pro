@@ -31,10 +31,12 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
     main.cpp \
     mainwindow.cpp \
+    paneloperatelogic.cpp \
     server.cpp
 
 HEADERS += \
     mainwindow.h \
+    paneloperatelogic.h \
     server.h
 
 FORMS += \

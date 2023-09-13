@@ -4,30 +4,38 @@
 #include <QThread>
 #include <QDebug>
 #include <cstdlib>
+#include <QMetaType>
+
+//Q_DECLARE_METATYPE(QVector<int>)
 
 int main(int argc, char *argv[])
 {
-//    std::string configPath = "D:/document/qtproj/ADAD-Service/server.json";
-//    std::string command = "VSOMEIP_CONFIGURATION=" + configPath;
-//    _putenv(const_cast<char*>(command.c_str()));
+    // 在合适的位置注册自定义类型
+    //qRegisterMetaType<QVector<int>>("QVector<int>");
 
-//    QApplication a(argc, argv);
-//    MainWindow mainwindow;
+    std::string configPath = "D:/document/qtproj/ADAD-Service/server.json";
+    std::string command = "VSOMEIP_CONFIGURATION=" + configPath;
+    _putenv(const_cast<char*>(command.c_str()));
 
-//    QThread wThread;
-//    Server worker;
+    QApplication a(argc, argv);
+    MainWindow mainwindow;
 
-//    mainwindow.show();
+    QThread wThread;
+    Server worker;
 
-//    worker.moveToThread(&wThread);
-//    QObject::connect(&wThread,&QThread::started,&worker,&Server::run);
-//    wThread.start();
+    mainwindow.show();
 
-//    return a.exec();
+    worker.moveToThread(&wThread);
+    QObject::connect(&wThread,&QThread::started,&worker,&Server::run);
+    //QObject::connect(&mainwindow,&MainWindow::requestALAD_SysStatusDataChange,&worker,&Server::setALAD_SysStatus);
 
-      QApplication a(argc, argv);
-      MainWindow mainwindow;
+    wThread.start();
 
-      mainwindow.show();
-      return a.exec();
+    return a.exec();
+
+//      QApplication a(argc, argv);
+//      MainWindow mainwindow;
+
+//      mainwindow.show();
+//      return a.exec();
 }

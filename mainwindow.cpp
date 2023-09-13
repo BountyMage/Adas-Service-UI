@@ -1,6 +1,9 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 
+
+extern ConnDataType CurrentALAD_SysStatus;
+
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
@@ -254,4 +257,21 @@ void MainWindow::comboBoxSettingFrontObject()
     this->ui->comboBox_FLOColor_->addItem("White");
     this->ui->comboBox_FLOColor_->addItem("Orange");
 
+}
+
+void MainWindow::on_comboBox_ALAD_SysStatus_NOA_Status__currentIndexChanged(int index)
+{
+    changeCurrentALAD_SysStatus_NOA_Status(index);
+}
+
+
+void MainWindow::on_comboBox_ALAD_SysStatus_LateralControlStatus__currentIndexChanged(int index)
+{
+    changeCurrentALAD_SysStatus_LateralControlStatus(index);
+}
+
+void MainWindow::on_setDataButton_clicked()
+{
+    //emit requestALAD_SysStatusDataChange(CurrentALAD_SysStatus);
+    sendsignal();
 }
