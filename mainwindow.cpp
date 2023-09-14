@@ -6,6 +6,7 @@ extern ConnDataType CurrentALAD_SysStatus;
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
+    , worker(new Server)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
@@ -272,6 +273,5 @@ void MainWindow::on_comboBox_ALAD_SysStatus_LateralControlStatus__currentIndexCh
 
 void MainWindow::on_setDataButton_clicked()
 {
-    //emit requestALAD_SysStatusDataChange(CurrentALAD_SysStatus);
-    sendsignal();
+    worker->setALAD_SysStatus(CurrentALAD_SysStatus);
 }

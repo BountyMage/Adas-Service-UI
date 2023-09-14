@@ -21,13 +21,13 @@ int main(int argc, char *argv[])
     MainWindow mainwindow;
 
     QThread wThread;
-    Server worker;
 
     mainwindow.show();
 
-    worker.moveToThread(&wThread);
-    QObject::connect(&wThread,&QThread::started,&worker,&Server::run);
+    mainwindow.worker->moveToThread(&wThread);
+    QObject::connect(&wThread,&QThread::started,mainwindow.worker,&Server::run);
     //QObject::connect(&mainwindow,&MainWindow::requestALAD_SysStatusDataChange,&worker,&Server::setALAD_SysStatus);
+    QObject::connect(&mainwindow,&MainWindow::testsignal,mainwindow.worker,&Server::testslot);
 
     wThread.start();
 

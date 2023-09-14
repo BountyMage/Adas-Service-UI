@@ -20,11 +20,11 @@ class MainWindow : public QMainWindow
     Q_OBJECT
 
 public:
+    Server* worker;
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
 signals:
-    void requestALAD_SysStatusDataChange(ConnDataType data);
 
 private slots:
     void on_comboBox_ALAD_SysStatus_NOA_Status__currentIndexChanged(int index);

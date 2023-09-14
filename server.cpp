@@ -17,11 +17,11 @@ void Server::run()
     runtime->registerService("local", "commonapi.ADAS_SystStatus_Service", myService,"server");
     std::cout << "Successfully Registered Service!" << std::endl;
 
-//    v1_0::commonapi::ADAS_SystStatus_Service::ADAS_SystStatus_Struct set_data;
-//    set_data.setADCU_LateralControlStatus(v1::commonapi::ADAS_SystStatus_Service::ADCU_LateralControlStatus_Enum::Passive);
-//    set_data.setADCU_NOA_Status(v1::commonapi::ADAS_SystStatus_Service::ADCU_NOA_Status_Enum::Active);
+    v1_0::commonapi::ADAS_SystStatus_Service::ADAS_SystStatus_Struct set_data;
+    set_data.setADCU_LateralControlStatus(v1::commonapi::ADAS_SystStatus_Service::ADCU_LateralControlStatus_Enum::Passive);
+    set_data.setADCU_NOA_Status(v1::commonapi::ADAS_SystStatus_Service::ADCU_NOA_Status_Enum::Active);
 
-//    myService->setADAS_SystStatusAttribute(set_data);
+    myService->setADAS_SystStatusAttribute(set_data);
 
     while (true) {
         std::cout << "Waiting for calls... (Abort with CTRL+C)" << std::endl;

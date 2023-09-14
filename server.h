@@ -23,14 +23,14 @@ class Server : public QObject
 public:
     explicit Server(QObject *parent = nullptr);
      ~Server();
+    void setALAD_SysStatus(ConnDataType data);
 
 signals:
-    void testsignal(QString s);
+
 
 public slots:
     void run();
-    void setALAD_SysStatus(ConnDataType data);
-    void testslot(QString s){qDebug() << "server Received data: " << s;}
+
 
 private:
     std::shared_ptr<CommonAPI::Runtime> runtime = nullptr;
