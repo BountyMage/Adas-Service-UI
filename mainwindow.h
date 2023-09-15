@@ -5,8 +5,10 @@
 #include "server.h"
 #include <vector>
 #include <iostream>
-#include<QtDebug>
+#include <QtDebug>
 #include "paneloperatelogic.h"
+#include "databasemanager.h"
+#include <QInputDialog>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -21,8 +23,10 @@ class MainWindow : public QMainWindow
 
 public:
     Server* worker;
+    DataBaseManager* dbm;
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
+    void displayLoadedServiceData();
 
 signals:
 
@@ -33,6 +37,9 @@ private slots:
 
     void on_setDataButton_clicked();
 
+    void on_addSceneButton_clicked();
+
+    void on_testButton_clicked();
 
 private:
     Ui::MainWindow *ui;

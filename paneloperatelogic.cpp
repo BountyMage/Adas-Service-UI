@@ -5,7 +5,7 @@
 #include<QtDebug>
 
 
-ConnDataType CurrentALAD_SysStatus(2);
+ServiceDataType CurrentALAD_SysStatus(2);
 
 void changeCurrentALAD_SysStatus_NOA_Status(int index){
 
@@ -26,3 +26,4 @@ void changeCurrentALAD_SysStatus_LateralControlStatus(int index){
     CurrentALAD_SysStatus[LateralControlStatus] = index;
     qDebug()<<"LateralControlStatus change to "<< index;
 }
+

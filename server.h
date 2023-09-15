@@ -11,7 +11,7 @@
 #include <v1/commonapi/ADAS_SystStatus_ServiceStubDefault.hpp>
 #include <v1/commonapi/ADAS_SystStatus_ServiceProxyBase.hpp>
 
-#define ConnDataType QVector<int>
+#define ServiceDataType QVector<int>
 
 #define NOA_Status 0
 #define LateralControlStatus 1
@@ -23,7 +23,7 @@ class Server : public QObject
 public:
     explicit Server(QObject *parent = nullptr);
      ~Server();
-    void setALAD_SysStatus(ConnDataType data);
+    void setALAD_SysStatus(ServiceDataType data);
 
 signals:
 
@@ -38,5 +38,5 @@ private:
 
 };
 
-void intToADASEnum(ConnDataType in, v1_0::commonapi::ADAS_SystStatus_Service::ADAS_SystStatus_Struct& out);
+void intToADASEnum(ServiceDataType in, v1_0::commonapi::ADAS_SystStatus_Service::ADAS_SystStatus_Struct& out);
 #endif // SERVER_H

@@ -2507,17 +2507,41 @@ background-color: rgb(226, 226, 227);</string>
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="setDataButton">
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="text">
-         <string>写入数据</string>
-        </property>
-       </widget>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QPushButton" name="setDataButton">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>写入数据</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="testButton">
+          <property name="text">
+           <string>testbutton</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="addSceneButton">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>添加场景</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
       </item>
      </layout>
     </item>
@@ -3934,94 +3958,6 @@ background-color: rgb(226, 226, 227);</string>
     </item>
     <item row="2" column="3">
      <layout class="QGridLayout" name="gridLayout_12">
-      <item row="1" column="0">
-       <widget class="QSplitter" name="splitter_234">
-        <property name="orientation">
-         <enum>Qt::Vertical</enum>
-        </property>
-        <widget class="QLabel" name="label_221">
-         <property name="font">
-          <font>
-           <family>Microsoft YaHei</family>
-           <pointsize>12</pointsize>
-          </font>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">color:rgb(3, 124, 213);
-background-color: rgb(226, 226, 227);</string>
-         </property>
-         <property name="frameShape">
-          <enum>QFrame::Box</enum>
-         </property>
-         <property name="frameShadow">
-          <enum>QFrame::Plain</enum>
-         </property>
-         <property name="lineWidth">
-          <number>0</number>
-         </property>
-         <property name="text">
-          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;ALAD SysStatus&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignCenter</set>
-         </property>
-        </widget>
-        <widget class="QSplitter" name="splitter_235">
-         <property name="styleSheet">
-          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
-         </property>
-         <property name="orientation">
-          <enum>Qt::Horizontal</enum>
-         </property>
-         <widget class="QLabel" name="label_222">
-          <property name="styleSheet">
-           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
-          </property>
-          <property name="text">
-           <string>NOA_Status:</string>
-          </property>
-         </widget>
-         <widget class="QComboBox" name="comboBox_ALAD_SysStatus_NOA_Status_">
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
-          </property>
-         </widget>
-        </widget>
-        <widget class="QSplitter" name="splitter_236">
-         <property name="styleSheet">
-          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
-         </property>
-         <property name="orientation">
-          <enum>Qt::Horizontal</enum>
-         </property>
-         <widget class="QLabel" name="label_223">
-          <property name="styleSheet">
-           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
-          </property>
-          <property name="text">
-           <string>LateralControlStatus:</string>
-          </property>
-         </widget>
-         <widget class="QComboBox" name="comboBox_ALAD_SysStatus_LateralControlStatus_">
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
-          </property>
-         </widget>
-        </widget>
-       </widget>
-      </item>
       <item row="0" column="0">
        <widget class="QSplitter" name="splitter_237">
         <property name="orientation">
@@ -4274,6 +4210,94 @@ background-color: rgb(226, 226, 227);</string>
           </property>
          </widget>
          <widget class="QComboBox" name="comboBox_ALAD_Status_Warning_">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QSplitter" name="splitter_234">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <widget class="QLabel" name="label_221">
+         <property name="font">
+          <font>
+           <family>Microsoft YaHei</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color:rgb(3, 124, 213);
+background-color: rgb(226, 226, 227);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::Box</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Plain</enum>
+         </property>
+         <property name="lineWidth">
+          <number>0</number>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;ALAD SysStatus&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QSplitter" name="splitter_235">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_222">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>NOA_Status:</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox_ALAD_SysStatus_NOA_Status_">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_236">
+         <property name="styleSheet">
+          <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="label_223">
+          <property name="styleSheet">
+           <string notr="true">font: 9pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>LateralControlStatus:</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox_ALAD_SysStatus_LateralControlStatus_">
           <property name="sizePolicy">
            <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
             <horstretch>0</horstretch>

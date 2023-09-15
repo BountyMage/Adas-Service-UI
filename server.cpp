@@ -29,7 +29,7 @@ void Server::run()
     }
 }
 
-void Server::setALAD_SysStatus(ConnDataType data)
+void Server::setALAD_SysStatus(ServiceDataType data)
 {
     v1_0::commonapi::ADAS_SystStatus_Service::ADAS_SystStatus_Struct set_data;
     intToADASEnum(data,set_data);
@@ -37,7 +37,7 @@ void Server::setALAD_SysStatus(ConnDataType data)
     qInfo() << "setALAD_SysStatus called";
 }
 
-void intToADASEnum(ConnDataType in, v1_0::commonapi::ADAS_SystStatus_Service::ADAS_SystStatus_Struct& out)
+void intToADASEnum(ServiceDataType in, v1_0::commonapi::ADAS_SystStatus_Service::ADAS_SystStatus_Struct& out)
 {
 //        std::vector<v1::commonapi::ADAS_SystStatus_Service::ADCU_LateralControlStatus_Enum> temp = {v1::commonapi::ADAS_SystStatus_Service::ADCU_LateralControlStatus_Enum::OFF,
 //                                                                                    v1::commonapi::ADAS_SystStatus_Service::ADCU_LateralControlStatus_Enum::Passive,
