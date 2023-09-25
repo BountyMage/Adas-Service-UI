@@ -27,6 +27,7 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
     void displayLoadedServiceData();
+    void loadSceneList();
 
 signals:
 

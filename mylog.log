@@ -528,3 +528,45 @@
 [CAPI][INFO] Registering function for creating "commonapi.ADAS_SystStatus_Service:v1_0" stub adapter.
 [CAPI][DEBUG] Loading interface library "AdasSysStatussomeipstub.dll" succeeded.
 [CAPI][INFO] Registering stub for "local:commonapi.ADAS_SystStatus_Service:v1_0:commonapi.ADAS_SystStatus_Service"
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.ADAS_SystStatus_Service:v1_0:commonapi.ADAS_SystStatus_Service --> AdasSysStatussomeipproxy.dll
+[CAPI][DEBUG] Adding stub mapping: local:commonapi.ADAS_SystStatus_Service:v1_0:commonapi.ADAS_SystStatus_Service --> AdasSysStatussomeipstub.dll
+[CAPI][INFO] Loading configuration file 'D:\document\qtproj\ADAD-Service/commonapi.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.ADAS_SystStatus_Service:v1_0:commonapi.ADAS_SystStatus_Service stub.
+[CAPI][DEBUG] Added address mapping: local:commonapi.ADAS_SystStatus_Service:v1_0:commonapi.ADAS_SystStatus_Service <--> [3331.0001(1.0)]
+[CAPI][INFO] Registering function for creating "commonapi.ADAS_SystStatus_Service:v1_0" stub adapter.
+[CAPI][DEBUG] Loading interface library "AdasSysStatussomeipstub.dll" succeeded.
+[CAPI][INFO] Registering stub for "local:commonapi.ADAS_SystStatus_Service:v1_0:commonapi.ADAS_SystStatus_Service"
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.ADAS_SystStatus_Service:v1_0:commonapi.ADAS_SystStatus_Service --> AdasSysStatussomeipproxy.dll
+[CAPI][DEBUG] Adding stub mapping: local:commonapi.ADAS_SystStatus_Service:v1_0:commonapi.ADAS_SystStatus_Service --> AdasSysStatussomeipstub.dll
+[CAPI][INFO] Loading configuration file 'D:\document\qtproj\ADAD-Service/commonapi.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.ADAS_SystStatus_Service:v1_0:commonapi.ADAS_SystStatus_Service stub.
+[CAPI][DEBUG] Added address mapping: local:commonapi.ADAS_SystStatus_Service:v1_0:commonapi.ADAS_SystStatus_Service <--> [3331.0001(1.0)]
+[CAPI][INFO] Registering function for creating "commonapi.ADAS_SystStatus_Service:v1_0" stub adapter.
+[CAPI][DEBUG] Loading interface library "AdasSysStatussomeipstub.dll" succeeded.
+[CAPI][INFO] Registering stub for "local:commonapi.ADAS_SystStatus_Service:v1_0:commonapi.ADAS_SystStatus_Service"
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.ADAS_SystStatus_Service:v1_0:commonapi.ADAS_SystStatus_Service --> AdasSysStatussomeipproxy.dll
+[CAPI][DEBUG] Adding stub mapping: local:commonapi.ADAS_SystStatus_Service:v1_0:commonapi.ADAS_SystStatus_Service --> AdasSysStatussomeipstub.dll
+[CAPI][INFO] Loading configuration file 'D:\document\qtproj\ADAD-Service/commonapi.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.ADAS_SystStatus_Service:v1_0:commonapi.ADAS_SystStatus_Service stub.
+[CAPI][DEBUG] Added address mapping: local:commonapi.ADAS_SystStatus_Service:v1_0:commonapi.ADAS_SystStatus_Service <--> [3331.0001(1.0)]
+[CAPI][INFO] Registering function for creating "commonapi.ADAS_SystStatus_Service:v1_0" stub adapter.
+[CAPI][DEBUG] Loading interface library "AdasSysStatussomeipstub.dll" succeeded.
+[CAPI][INFO] Registering stub for "local:commonapi.ADAS_SystStatus_Service:v1_0:commonapi.ADAS_SystStatus_Service"
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.ADAS_SystStatus_Service:v1_0:commonapi.ADAS_SystStatus_Service --> AdasSysStatussomeipproxy.dll
+[CAPI][DEBUG] Adding stub mapping: local:commonapi.ADAS_SystStatus_Service:v1_0:commonapi.ADAS_SystStatus_Service --> AdasSysStatussomeipstub.dll
+[CAPI][INFO] Loading configuration file 'D:\document\qtproj\ADAD-Service/commonapi.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.ADAS_SystStatus_Service:v1_0:commonapi.ADAS_SystStatus_Service stub.
+[CAPI][DEBUG] Added address mapping: local:commonapi.ADAS_SystStatus_Service:v1_0:commonapi.ADAS_SystStatus_Service <--> [3331.0001(1.0)]
+[CAPI][INFO] Registering function for creating "commonapi.ADAS_SystStatus_Service:v1_0" stub adapter.
+[CAPI][DEBUG] Loading interface library "AdasSysStatussomeipstub.dll" succeeded.
+[CAPI][INFO] Registering stub for "local:commonapi.ADAS_SystStatus_Service:v1_0:commonapi.ADAS_SystStatus_Service"
+[CAPI][ERROR] Failed to create connection server
+[CAPI][ERROR] Registering stub for "local:commonapi.ADAS_SystStatus_Service:v1_0:commonapi.ADAS_SystStatus_Service" failed!

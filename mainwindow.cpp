@@ -12,6 +12,7 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
     dbm->connOpen();
+    loadSceneList();
     comboBoxSettingFrontObject();
     comboBoxSettingSLIFIHBCStatus();
     comboBoxSettingTLAInfo();
@@ -292,6 +293,7 @@ void MainWindow::on_addSceneButton_clicked()
         // 用户输入有效
         qDebug() << "用户输入：" << userInput;
         dbm->addNewScene_single("ALADSSysStatus",userInput,CurrentALAD_SysStatus);
+        loadSceneList();
     } else {
         // 用户取消了输入
         qDebug() << "用户取消了输入";
@@ -307,6 +309,20 @@ void MainWindow::displayLoadedServiceData(){
 void MainWindow::on_testButton_clicked()
 {
     //dbm->changeUnitData("ALADSSysStatus","passive","0",5);
-    dbm->loadScene_single("passive","ALADSSysStatus", CurrentALAD_SysStatus);
+    QString scene = ui->comboBox_Scene->currentText();
+    qDebug()<<"scene is : "<<scene;
+    dbm->loadScene_single(scene,"ALADSSysStatus", CurrentALAD_SysStatus);
     displayLoadedServiceData();
+}
+
+void MainWindow::loadSceneList(){
+    QSqlQueryModel * model = new QSqlQueryModel();
+    QSqlQuery * qry = new QSqlQuery(dbm->mydb);
+
+    qry->prepare("select Scene from ALADSSysStatus");
+    qry->exec();
+
+    model->setQuery(*qry);
+    ui->comboBox_Scene->setModel(model);
+    qDebug()<<(model->rowCount());
 }

@@ -34,7 +34,17 @@
 -- INSERT INTO ALADSSysStatus (Scene, '0', '1')
 -- VALUES ('Default', 0, 0);
 
-SELECT * FROM ALADSSysStatus;
-
 -- update ALADSSysStatus set '0'=5
 -- where Scene = 'passive'
+
+-- SELECT Scene FROM ALADSSysStatus;
+
+-- INSERT INTO ALADSSysStatus (Scene, '0', '1')
+-- VALUES ('standby', '3', '3');
+
+-- update ALADSSysStatus set 'Scene' = active
+-- where '0' = '3';
+
+-- delete from ALADSSysStatus
+-- where Scene = 'standby';
+
