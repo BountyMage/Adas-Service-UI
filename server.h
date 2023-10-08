@@ -12,10 +12,21 @@
 #include <v1/commonapi/ADAS_SystStatus_ServiceProxyBase.hpp>
 
 #define ServiceDataType QVector<int>
-
+//ALAD_SysStatus members macro
 #define NOA_Status 0
 #define LateralControlStatus 1
 
+//FCS_SLIF_IHBC_Status_Struct members macro
+#define SLIF_Warning 0
+#define Status_AliveCounter 1
+#define IHBC_Switch 2
+#define IHBC_Status 3
+#define Status_CheckSum 4
+#define Speedlimit 5
+#define IHBC_LightDistribReq 6
+#define SLIF_Switch 7
+#define SpeedLimitCancelled 8
+#define SLIF_Status 9
 
 class Server : public QObject
 {

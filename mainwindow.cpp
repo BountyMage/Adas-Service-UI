@@ -3,16 +3,20 @@
 
 
 extern ServiceDataType CurrentALAD_SysStatus;
+extern ServiceDataType CurrentSLIF_IHBCStatus;
+//current scene
+QString currentScene = "未定义";
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , worker(new Server)
     , dbm(new DataBaseManager)
+    , scenelist(new QComboBox)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
     dbm->connOpen();
-    loadSceneList();
+    //loadSceneList();
     comboBoxSettingFrontObject();
     comboBoxSettingSLIFIHBCStatus();
     comboBoxSettingTLAInfo();
@@ -267,18 +271,13 @@ void MainWindow::comboBoxSettingFrontObject()
 
 void MainWindow::on_comboBox_ALAD_SysStatus_NOA_Status__currentIndexChanged(int index)
 {
-    changeCurrentALAD_SysStatus_NOA_Status(index);
+    changeCurrentALAD_SysStatus(NOA_Status,index);
 }
 
 
 void MainWindow::on_comboBox_ALAD_SysStatus_LateralControlStatus__currentIndexChanged(int index)
 {
-    changeCurrentALAD_SysStatus_LateralControlStatus(index);
-}
-
-void MainWindow::on_setDataButton_clicked()
-{
-    worker->setALAD_SysStatus(CurrentALAD_SysStatus);
+    changeCurrentALAD_SysStatus(LateralControlStatus,index);
 }
 
 void MainWindow::on_addSceneButton_clicked()
@@ -293,7 +292,7 @@ void MainWindow::on_addSceneButton_clicked()
         // 用户输入有效
         qDebug() << "用户输入：" << userInput;
         dbm->addNewScene_single("ALADSSysStatus",userInput,CurrentALAD_SysStatus);
-        loadSceneList();
+        //loadSceneList();
     } else {
         // 用户取消了输入
         qDebug() << "用户取消了输入";
@@ -304,18 +303,11 @@ void MainWindow::displayLoadedServiceData(){
     ui->comboBox_ALAD_SysStatus_NOA_Status_->setCurrentIndex(CurrentALAD_SysStatus[NOA_Status]);
     ui->comboBox_ALAD_SysStatus_LateralControlStatus_->setCurrentIndex(CurrentALAD_SysStatus[LateralControlStatus]);
 
+
+
 }
 
-void MainWindow::on_testButton_clicked()
-{
-    //dbm->changeUnitData("ALADSSysStatus","passive","0",5);
-    QString scene = ui->comboBox_Scene->currentText();
-    qDebug()<<"scene is : "<<scene;
-    dbm->loadScene_single(scene,"ALADSSysStatus", CurrentALAD_SysStatus);
-    displayLoadedServiceData();
-}
-
-void MainWindow::loadSceneList(){
+void MainWindow::loadSceneList(QComboBox& box){
     QSqlQueryModel * model = new QSqlQueryModel();
     QSqlQuery * qry = new QSqlQuery(dbm->mydb);
 
@@ -323,6 +315,68 @@ void MainWindow::loadSceneList(){
     qry->exec();
 
     model->setQuery(*qry);
-    ui->comboBox_Scene->setModel(model);
+    box.setModel(model);
     qDebug()<<(model->rowCount());
+}
+
+void MainWindow::on_actionOpej_triggered()
+{
+loadSceneList(*this->scenelist);
+
+this->scenelist->setWindowTitle("加载场景");
+
+// 设置下拉列表的位置和大小
+this->scenelist->setGeometry(10, 50, 150, 30);
+
+// 显示下拉列表
+this->scenelist->show();
+
+}
+
+void MainWindow::load_Scene()
+{
+    //dbm->changeUnitData("ALADSSysStatus","passive","0",5);
+    QString scene = this->scenelist->currentText();
+    currentScene = scene;
+    this->setWindowTitle("当前场景"+scene);
+    qDebug()<<"scene is : "<<scene;
+    dbm->loadScene_single(scene,"ALADSSysStatus", CurrentALAD_SysStatus);
+    dbm->loadScene_single(scene,"SLIFIHBCStatus", CurrentSLIF_IHBCStatus);
+    displayLoadedServiceData();
+    this->scenelist->close();
+}
+
+void MainWindow::on_actionSave_triggered()
+{
+    QWidget window;
+    window.setGeometry(100, 100, 300, 200);
+    dbm->changeScene_single("ALADSSysStatus",currentScene,CurrentALAD_SysStatus);
+    dbm->changeScene_single("SLIFIHBCStatus",currentScene,CurrentSLIF_IHBCStatus);
+    qDebug() << "当前场景：" << currentScene;
+}
+
+void MainWindow::on_actionSave_as_triggered()
+{
+    QWidget window;
+    window.setGeometry(100, 100, 300, 200);
+    bool ok;
+    QString userInput = QInputDialog::getText(&window, "添加场景", "请输入场景名:", QLineEdit::Normal, "", &ok);
+
+    // 检查用户是否点击了"确定"按钮
+    if (ok && !userInput.isEmpty()) {
+        // 用户输入有效
+        qDebug() << "用户输入：" << userInput;
+        dbm->addNewScene_single("ALADSSysStatus",userInput,CurrentALAD_SysStatus);
+        dbm->addNewScene_single("SLIFIHBCStatus",userInput,CurrentSLIF_IHBCStatus);
+    } else {
+        // 用户取消了输入
+        qDebug() << "用户取消了输入";
+    }
+
+}
+
+void MainWindow::on_actionActivate_triggered()
+{
+    worker->setALAD_SysStatus(CurrentALAD_SysStatus);
+
 }

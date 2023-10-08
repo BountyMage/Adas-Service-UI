@@ -14,7 +14,7 @@ QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
 
-//current panel values for service data
+
 
 
 class MainWindow : public QMainWindow
@@ -24,10 +24,12 @@ class MainWindow : public QMainWindow
 public:
     Server* worker;
     DataBaseManager* dbm;
+    QComboBox* scenelist;
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
     void displayLoadedServiceData();
-    void loadSceneList();
+    void loadSceneList(QComboBox& box);
+    void load_Scene();
 
 signals:
 
@@ -36,11 +38,19 @@ private slots:
 
     void on_comboBox_ALAD_SysStatus_LateralControlStatus__currentIndexChanged(int index);
 
-    void on_setDataButton_clicked();
+    //void on_setDataButton_clicked();
 
     void on_addSceneButton_clicked();
 
-    void on_testButton_clicked();
+    void on_actionOpej_triggered();
+
+
+
+    void on_actionSave_triggered();
+
+    void on_actionSave_as_triggered();
+
+    void on_actionActivate_triggered();
 
 private:
     Ui::MainWindow *ui;

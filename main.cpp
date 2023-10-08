@@ -34,6 +34,9 @@ int main(int argc, char *argv[])
 
       QApplication a(argc, argv);
       MainWindow mainwindow;
+      mainwindow.setWindowTitle("[ADAS座舱测试台架] 当前场景：未定义");
+      QObject::connect(mainwindow.scenelist, &QComboBox::currentTextChanged, &mainwindow, &MainWindow::load_Scene);
+
 
       mainwindow.show();
       return a.exec();

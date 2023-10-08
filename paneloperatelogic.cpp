@@ -4,16 +4,15 @@
 #include <iostream>
 #include<QtDebug>
 
-
 ServiceDataType CurrentALAD_SysStatus(2);
+ServiceDataType CurrentSLIF_IHBCStatus(10);
 
-void changeCurrentALAD_SysStatus_NOA_Status(int index){
+void changeCurrentALAD_SysStatus(int member, int index){
 
-    CurrentALAD_SysStatus[NOA_Status] = index;
-    qDebug()<<"NOA_Status change to "<< index;
+    CurrentALAD_SysStatus[member] = index;
+    qDebug()<<"ALAD_SysStatus member "<<member<< " change to "<< index;
 }
 
-void changeCurrentALAD_SysStatus_LateralControlStatus(int index){
 //    std::vector<v1::commonapi::ADAS_SystStatus_Service::ADCU_LateralControlStatus_Enum> temp = {v1::commonapi::ADAS_SystStatus_Service::ADCU_LateralControlStatus_Enum::OFF,
 //                                                                                v1::commonapi::ADAS_SystStatus_Service::ADCU_LateralControlStatus_Enum::Passive,
 //                                                                                     v1::commonapi::ADAS_SystStatus_Service::ADCU_LateralControlStatus_Enum::Standby,
@@ -23,7 +22,10 @@ void changeCurrentALAD_SysStatus_LateralControlStatus(int index){
 //                                                                                     v1::commonapi::ADAS_SystStatus_Service::ADCU_LateralControlStatus_Enum::TemporaryError,
 //                                                                                     v1::commonapi::ADAS_SystStatus_Service::ADCU_LateralControlStatus_Enum::PermanentError};
 
-    CurrentALAD_SysStatus[LateralControlStatus] = index;
-    qDebug()<<"LateralControlStatus change to "<< index;
+void changeCurrentSLIF_IHBCStatus(int member, int index){
+
+    CurrentSLIF_IHBCStatus[member] = index;
+    qDebug()<<"SLIF_IHBCStatus member "<<member<< " change to "<< index;
 }
+
 

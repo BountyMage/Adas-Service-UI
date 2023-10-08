@@ -47,8 +47,16 @@ void DataBaseManager::addNewLine(QString tablename, QString linename){
 }
 
 void DataBaseManager::addNewScene_single(QString tablename,  QString linename, QVector<int>& val){
-    int m_amount = 2;
+    int m_amount = val.size();
     addNewLine(tablename,linename);
+    for(int i = 0;i<m_amount;i++){
+       changeUnitData(tablename,linename,QString::number(i),val[i]);
+    }
+}
+
+void DataBaseManager::changeScene_single(QString tablename,  QString linename, QVector<int>& val){
+    int m_amount = val.size();
+
     for(int i = 0;i<m_amount;i++){
        changeUnitData(tablename,linename,QString::number(i),val[i]);
     }
